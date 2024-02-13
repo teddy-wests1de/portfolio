@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1.5rem;
 }
 .logo-title {
   margin: 0 5px;
@@ -61,9 +62,6 @@ body {
   z-index: 999;
   flex-direction: column;
   align-items: center;
-  /* flex-direction: column;
-  justify-content: flex-start;
-  width: 100%; */
 }
 .btn-close {
   display: flex;
@@ -149,7 +147,7 @@ a:visited {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 /* .section-home {

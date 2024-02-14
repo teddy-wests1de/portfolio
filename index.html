@@ -6,7 +6,7 @@
     <title>Elrico Landrew - Portfolio</title>
     <link rel="stylesheet" href="./src/css-reset.css" />
     <link rel="stylesheet" href="./src/style.css" />
-    <script src="./src/js/script.js"></script>
+    <script src="./src/js/script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/3e535f31b0.js"
       crossorigin="anonymous"
@@ -26,10 +26,14 @@
         <nav class="nav" id="top">
           <div class="menu-overlay"></div>
           <div class="mobile-menu">
-            <button class="btn-mobile"><i class="fa-solid fa-bars"></i></button>
+            <button class="btn-menu btn-menu-open">
+              <i class="fa-solid fa-bars"></i>
+            </button>
           </div>
-          <ul class="nav-menu">
-            <button class="btn-close"><i class="fa-solid fa-bars"></i></button>
+          <ul class="nav-menu hidden">
+            <button class="btn-menu btn-menu-close">
+              <i class="fa-solid fa-bars"></i>
+            </button>
             <li class="nav-item"><a href="#home" class="nav-link">home</a></li>
             <li class="nav-item">
               <a href="#projects" class="nav-link">projects</a>

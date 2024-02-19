@@ -16,22 +16,21 @@
     <div class="wrapper">
       <header class="header">
         <div class="logo">
-          <h3 class="logo-title">
+          <div class="logo-title">
             <span class="logo-title-name">Elrico</span>&nbsp;<span
               class="logo-title-surname"
-              >Landrew</span
-            >
-          </h3>
+              >Landrew</span>
+          </div>
         </div>
         <nav class="nav" id="top">
           <div class="menu-overlay"></div>
           <div class="mobile-menu">
-            <button class="btn-menu btn-menu-open">
+            <button class="btn-menu btn-menu-open" aria-expanded="false">
               <i class="fa-solid fa-bars"></i>
             </button>
           </div>
           <ul class="nav-menu hidden">
-            <button class="btn-menu btn-menu-close">
+            <button class="btn-menu btn-menu-close" aria-expanded="true">
               <i class="fa-solid fa-xmark"></i>
             </button>
             <li class="nav-item"><a href="#home" class="nav-link">home</a></li>
@@ -80,10 +79,7 @@
           <h2 class="section-title">Projects</h2>
           <div class="section-projects">
             <div class="project-item">
-              <a
-                href="https://teddy-wests1de.github.io/gym-site/"
-                class="project-link"
-              >
+              
                 <div class="project-image">
                   <picture>
                     <img
@@ -95,22 +91,24 @@
                 </div>
                 <div class="project-title">
                   <small class="superscript">Project 1</small>
-                  <h3 class="project-name">Gym Site</h3>
+
+                  <h3 class="project-name"><a href="https://teddy-wests1de.github.io/gym-site/"
+                    class="project-link">Gym Site</a></h3>
                 </div>
-              </a>
-              <div class="project-description">
+              
+                <div class="project-description">
                 <!-- <p class="description">
                                 One of my first full scale projects, demonstrating the use of grid and Javascript classes to incorporate user objects. The site is still under development, however the Register and login features are nearly done and can be seen in action in this version.
                             </p> -->
               </div>
               <div class="project-buttons">
-                <button class="btn-cta">Live Site</button>
-                <button class="btn-cta-ghost">Code Repo</button>
+                <a href="#" class="btn-cta btn-cta">Live Site</a>
+                <a href="#" class="btn-cta btn-cta-ghost">Code Repo</a>
               </div>
               <div class="tag-list"></div>
             </div>
             <div class="project-item">
-              <a href="" class="project-link">
+              
                 <div class="project-image">
                   <picture>
                     <img
@@ -121,7 +119,7 @@
                 </div>
                 <div class="project-title">
                   <small class="superscript">Project 2</small>
-                  <h3 class="project-name">Barbershop</h3>
+                  <h3 class="project-name"><a href="" class="project-link">Barbershop</a></h3>
                 </div>
               </a>
               <div class="project-description">
@@ -129,13 +127,12 @@
                             </p> -->
               </div>
               <div class="project-buttons">
-                <button class="btn-cta">Live Site</button>
-                <button class="btn-cta-ghost">Code Repo</button>
+                <a href="#" class="btn-cta btn-cta">Live Site</a>
+                <a href="#" class="btn-cta btn-cta-ghost">Code Repo</a>
               </div>
               <div class="tag-list"></div>
             </div>
             <div class="project-item">
-              <a href="" class="project-link">
                 <div class="project-image">
                   <picture>
                     <img
@@ -146,19 +143,18 @@
                 </div>
                 <div class="project-title">
                   <small class="superscript">Project 3</small>
-                  <h3 class="project-name">Frontend Mentor Challenge</h3>
+                  <h3 class="project-name"><a href="" class="project-link">Frontend Mentor Challenge</a></h3>
                 </div>
-              </a>
-              <div class="project-description">
+                <div class="project-description">
                 <!-- <p class="description">
                                 This Frontendmentor challenge to me was truly a challenge, to bring about the incorporation of all the different user input ${Big word I cannot think of right now}.
                             </p> -->
-              </div>
-              <div class="project-buttons">
-                <button class="btn-cta">Live Site</button>
-                <button class="btn-cta-ghost">Code Repo</button>
-              </div>
-              <div class="tag-list"></div>
+                </div>
+                <div class="project-buttons">
+                  <a href="#" class="btn-cta btn-cta">Live Site</a>
+                  <a href="#" class="btn-cta btn-cta-ghost">Code Repo</a>
+                </div>
+                <div class="tag-list"></div>
             </div>
           </div>
         </section>
@@ -188,9 +184,9 @@
           <div class="section-contact">
             <div class="form-container">
               <form action="/index.html" class="contact-form">
-                <h3 class="form-title">
+                <p class="form-title">
                   Please complete the form below to send me a message.
-                </h3>
+                </p>
                 <div class="form-field">
                   <label for="first-name">Firstname</label>
                   <input type="text" class="input-field" id="first-name" />
@@ -223,7 +219,7 @@
       <footer class="footer">
         <div class="attribution">
           <small class="copyright"
-            >Designed & Developed by Elrico Landrew &copy; 2023</small
+            >Designed & Developed by Elrico Landrew &copy; <span class="current-year">This Year</span></small
           >
         </div>
       </footer>

@@ -4,7 +4,7 @@
 :root {
   /* Light Colors */
   --dark-color: #f8f5f5;
-  --light-color: #1e1e1e;
+  --light-color: #0c140c;
   --accent-color: #40ac2f;
 }
 
@@ -30,7 +30,9 @@ body {
   background-color: var(--light-color);
   justify-content: space-between;
   align-items: center;
-  padding: 4px 4px 8px;
+  /* padding: 4px 4px 8px; */
+  margin-bottom: 1rem;
+  height: 50px;
   box-shadow: 0 4px 2px -2px #807e7e95;
 }
 
@@ -43,6 +45,7 @@ body {
 .logo-title {
   margin: 0 5px;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 .logo-title-surname {
   color: var(--accent-color);
@@ -112,7 +115,7 @@ a:visited {
 .nav-link {
   color: var(--dark-color);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
   /* margin: 0 1rem; */
@@ -161,19 +164,18 @@ a:visited {
   margin: 1rem;
 }
 
-/* .section-home {
-  display: grid;
-  grid-template-columns: minmax(1fr, auto);
-  place-content: center;
-  align-content: stretch;
-  text-align: center;
-} */
 .main-title {
   display: flex;
   justify-content: center;
   font-size: 2.2rem;
   grid-column: 1/2;
   margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.section-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .profile-image {
   background-color: #40ac2f;
@@ -190,6 +192,7 @@ a:visited {
   font-size: 2rem;
   font-weight: 900;
   margin: 1rem;
+  padding-top: 2rem;
 }
 .introduction {
   margin: 1rem 0;
@@ -212,7 +215,12 @@ a:visited {
   justify-content: center;
 }
 .project-item {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  max-width: 400px;
   background-color: #1c271a4c;
   padding: 1rem;
 }
@@ -230,6 +238,7 @@ a:visited {
 .project-buttons {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   row-gap: 1rem;
 }
@@ -237,11 +246,16 @@ a:visited {
   flex: 1;
   margin: 0 4px;
 }
+.btn-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+}
 .btn-cta-ghost {
   border: 1px solid var(--accent-color);
   background-color: #090c0812;
   color: var(--accent-color);
-  padding: 0;
 }
 
 /* .project-link {
@@ -311,9 +325,9 @@ a:visited {
 /*  Desktop Screen size  */
 
 @media (min-width: 768px) {
-  .wrapper {
+  /* .wrapper {
     max-width: 1200px;
-  }
+  } */
   .nav-menu.hidden {
     display: flex;
   }
@@ -340,8 +354,7 @@ a:visited {
     display: none;
   }
   .section-home {
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto auto auto;
+    align-items: flex-start;
   }
   .main-title {
     grid-column: 1/2;
@@ -355,6 +368,9 @@ a:visited {
   } */
   .introduction {
     text-align: left;
+  }
+  .project-item {
+    max-width: 450px;
   }
   .cta {
     grid-column: 1/2;

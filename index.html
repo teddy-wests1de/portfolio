@@ -13,6 +13,10 @@
     ></script>
   </head>
   <body>
+    <div class="details-modal hidden">
+      <div class="details-screen"></div>
+      <button class="close-modal"><i class="fa-xmark">x</i></button>
+    </div>
     <div class="wrapper">
       <header class="header">
         <div class="logo">
@@ -48,7 +52,7 @@
       </header>
       <div class="bg-overlay"></div>
       <div class="back-to-top">
-        <a href="#top" class="top-link"><i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#home" class="top-link"><i class="fa-solid fa-arrow-up"></i></a>
       </div>
       <main class="main">
         <section class="section" id="home">
@@ -78,8 +82,7 @@
         <section class="section" id="projects">
           <h2 class="section-title">Projects</h2>
           <div class="section-projects">
-            <div class="project-item">
-              
+            <div class="project-item" data-index="1">
                 <div class="project-image">
                   <picture>
                     <img
@@ -91,15 +94,13 @@
                 </div>
                 <div class="project-title">
                   <small class="superscript">Project 1</small>
-
                   <h3 class="project-name"><a href="https://teddy-wests1de.github.io/gym-site/"
                     class="project-link">Gym Site</a></h3>
                 </div>
-              
                 <div class="project-description">
                 <!-- <p class="description">
-                                One of my first full scale projects, demonstrating the use of grid and Javascript classes to incorporate user objects. The site is still under development, however the Register and login features are nearly done and can be seen in action in this version.
-                            </p> -->
+                    One of my first full scale projects, demonstrating the use of grid and Javascript classes to incorporate user objects. The site is still under development, however the Register and login features are nearly done and can be seen in action in this version.
+                </p> -->
               </div>
               <div class="project-buttons">
                 <a href="#" class="btn-cta btn-cta">Live Site</a>
@@ -107,14 +108,12 @@
               </div>
               <div class="tag-list"></div>
             </div>
-            <div class="project-item">
-              
+            <div class="project-item" data-index="2">
                 <div class="project-image">
                   <picture>
                     <img
                       src="./src/img/Jetty's-Barbershop-Desktop.png"
-                      alt="Barbershop App"
-                    />
+                      alt="Barbershop App"/>
                   </picture>
                 </div>
                 <div class="project-title">
@@ -124,7 +123,7 @@
               </a>
               <div class="project-description">
                 <!-- <p class="description">This site was developed to test my Flexbox skills as well as the placement and execution of the Hamburger menu. In addition to the responsive menu, I've also worked with forms and dates to schedule appointments.
-                            </p> -->
+                </p> -->
               </div>
               <div class="project-buttons">
                 <a href="#" class="btn-cta btn-cta">Live Site</a>
@@ -132,7 +131,7 @@
               </div>
               <div class="tag-list"></div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-index="3">
                 <div class="project-image">
                   <picture>
                     <img
@@ -147,8 +146,8 @@
                 </div>
                 <div class="project-description">
                 <!-- <p class="description">
-                                This Frontendmentor challenge to me was truly a challenge, to bring about the incorporation of all the different user input ${Big word I cannot think of right now}.
-                            </p> -->
+                    This Frontendmentor challenge to me was truly a challenge, to bring about the incorporation of all the different user input ${Big word I cannot think of right now}.
+                </p> -->
                 </div>
                 <div class="project-buttons">
                   <a href="#" class="btn-cta btn-cta">Live Site</a>
@@ -219,8 +218,7 @@
       <footer class="footer">
         <div class="attribution">
           <small class="copyright"
-            >Designed & Developed by Elrico Landrew &copy; <span class="current-year">This Year</span></small
-          >
+            >Designed & Developed by Elrico Landrew &copy; <span class="current-year">This Year</span></small>
         </div>
       </footer>
     </div>

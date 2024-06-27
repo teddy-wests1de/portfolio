@@ -1,0 +1,29 @@
+28
+55/home/elrico/Desktop/external-projects/portfolio/src/js1719337577912472262 1
+65/home/elrico/Desktop/external-projects/portfolio/src/js/script.js1719337577912472262 0
+87/home/elrico/Desktop/external-projects/portfolio/src/img/Jetty's-Barbershop-Desktop.png1719337577908472301 0
+56/home/elrico/Desktop/external-projects/portfolio/src/img1719337577908472301 1
+84/home/elrico/Desktop/external-projects/portfolio/src/img/Rustic-Momentum-Desktop.png1719337577912472262 0
+62/home/elrico/Desktop/external-projects/portfolio/src/style.css1719520683932523195 0
+79/home/elrico/Desktop/external-projects/portfolio/dist/portfolio.3464ddca.js.map1719520578670116339 0
+52/home/elrico/Desktop/external-projects/portfolio/src1719337577912472262 1
+48/home/elrico/Desktop/external-projects/portfolio1719520574707014900 1
+56/home/elrico/Desktop/external-projects/portfolio/.vscode1719337577900472376 1
+58/home/elrico/Desktop/external-projects/portfolio/README.md1719337577900472376 0
+75/home/elrico/Desktop/external-projects/portfolio/dist/index.09c24910.js.map1719520578358186186 0
+66/home/elrico/Desktop/external-projects/portfolio/src/css-reset.css1719337577900472376 0
+70/home/elrico/Desktop/external-projects/portfolio/.vscode/settings.json1719337577900472376 0
+61/home/elrico/Desktop/external-projects/portfolio/package.json1719520414026681493 0
+59/home/elrico/Desktop/external-projects/portfolio/index.html1719337577900472376 0
+75/home/elrico/Desktop/external-projects/portfolio/dist/portfolio.3464ddca.js1719520578670116339 0
+53/home/elrico/Desktop/external-projects/portfolio/dist1719520577734326290 1
+64/home/elrico/Desktop/external-projects/portfolio/dist/index.html1719520578146233646 0
+90/home/elrico/Desktop/external-projects/portfolio/dist/Rustic-Momentum-Desktop.8bd21c08.png1719520578162230064 0
+105/home/elrico/Desktop/external-projects/portfolio/src/img/Frontend Mentor Age calculator app - Desktop.png1719337577904472339 0
+72/home/elrico/Desktop/external-projects/portfolio/dist/index.46ebfec7.css1719520578162230064 0
+76/home/elrico/Desktop/external-projects/portfolio/dist/index.46ebfec7.css.map1719520578170228273 0
+93/home/elrico/Desktop/external-projects/portfolio/dist/Jetty's-Barbershop-Desktop.c50695d8.png1719520578170228273 0
+111/home/elrico/Desktop/external-projects/portfolio/dist/Frontend Mentor Age calculator app - Desktop.cf308720.png1719520577838302849 0
+71/home/elrico/Desktop/external-projects/portfolio/dist/index.09c24910.js1719520578354187081 0
+72/home/elrico/Desktop/external-projects/portfolio/dist/index.2cdaf7bc.css1719520578546144099 0
+76/home/elrico/Desktop/external-projects/portfolio/dist/index.2cdaf7bc.css.map1719520578550143204 0

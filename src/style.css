@@ -68,25 +68,33 @@ body {
   align-items: center;
   border: 1px solid red;
 }
-
+.btn-mobile {
+  all: unset;
+  position: relative;
+  right: 0;
+  margin: 1rem;
+}
+.btn-mobile.hidden {
+  display: none;
+}
 .btn-close {
   display: flex;
 }
-.mobile-menu.hidden {
-  display: none;
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.75rem;
+  gap: 1rem;
 }
-.btn-mobile {
-  all: unset;
-}
-.btn-menu {
-  all: unset;
-  margin: 1rem;
+a.link-item:hover {
+  color: var(--accent-color);
 }
 .btn-menu:hover {
   color: var(--accent-color);
   cursor: pointer;
 }
-.nav-menu {
+/* .nav-menu {
   position: absolute;
   right: 0;
   display: flex;
@@ -100,7 +108,7 @@ body {
   z-index: 900;
   transition-property: width;
   transition-duration: 0.5s;
-}
+} */
 
 .nav-menu.hidden {
   display: none;
@@ -111,21 +119,13 @@ body {
   width: 100%;
   background-color: #1e1e1e;
 } */
+a:hover {
+  color: var(--accent-color);
+}
 a:visited {
   color: var(--dark-color);
 }
 
-.nav-link {
-  color: var(--dark-color);
-  font-size: 1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none;
-  /* margin: 0 1rem; */
-}
-.nav-link:hover {
-  color: var(--accent-color);
-}
 .fa-solid {
   font-size: 1.5rem;
   color: var(--dark-color);
@@ -354,9 +354,18 @@ a.top-link i:hover {
 /*  Desktop Screen size  */
 
 @media (min-width: 768px) {
-  /* .wrapper {
+  .nav button {
+    display: none;
+  }
+  .menu {
+    flex-direction: row;
+  }
+}
+
+/* @media (min-width: 768px) {
+  .wrapper {
     max-width: 1200px;
-  } */
+  }
   .details-screen {
     width: 80%;
     height: 80%;
@@ -404,4 +413,4 @@ a.top-link i:hover {
   .cta {
     grid-column: 1/2;
   }
-}
+} */

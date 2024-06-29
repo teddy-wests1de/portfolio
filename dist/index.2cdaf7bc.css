@@ -67,21 +67,31 @@ body {
   right: 0;
 }
 
+.btn-mobile {
+  all: unset;
+  margin: 1rem;
+  position: relative;
+  right: 0;
+}
+
+.btn-mobile.hidden {
+  display: none;
+}
+
 .btn-close {
   display: flex;
 }
 
-.mobile-menu.hidden {
-  display: none;
+.menu {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: .75rem;
+  display: flex;
 }
 
-.btn-mobile {
-  all: unset;
-}
-
-.btn-menu {
-  all: unset;
-  margin: 1rem;
+a.link-item:hover {
+  color: var(--accent-color);
 }
 
 .btn-menu:hover {
@@ -89,41 +99,17 @@ body {
   cursor: pointer;
 }
 
-.nav-menu {
-  background-color: var(--light-color);
-  z-index: 900;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  width: 100vw;
-  height: 100vh;
-  padding: 1rem;
-  transition-property: width;
-  transition-duration: .5s;
-  display: flex;
-  position: absolute;
-  right: 0;
-}
-
 .nav-menu.hidden {
   width: 50vw;
   display: none;
 }
 
+a:hover {
+  color: var(--accent-color);
+}
+
 a:visited {
   color: var(--dark-color);
-}
-
-.nav-link {
-  color: var(--dark-color);
-  text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  color: var(--accent-color);
 }
 
 .fa-solid {
@@ -387,57 +373,12 @@ a.top-link i:hover {
 }
 
 @media (width >= 768px) {
-  .details-screen {
-    width: 80%;
-    height: 80%;
-  }
-
-  .nav-menu.hidden {
-    display: flex;
-  }
-
-  .btn-close {
+  .nav button {
     display: none;
   }
 
-  .nav {
-    flex-direction: row-reverse;
-  }
-
-  .nav-menu {
-    position: unset;
+  .menu {
     flex-direction: row;
-    justify-content: end;
-    width: 1vw;
-    height: auto;
-    margin: 0 2rem;
-    padding: 0;
-    display: flex;
-  }
-
-  .btn-menu, .bg-overlay {
-    display: none;
-  }
-
-  .section-home {
-    align-items: flex-start;
-  }
-
-  .main-title {
-    grid-column: 1 / 2;
-    justify-content: left;
-  }
-
-  .introduction {
-    text-align: left;
-  }
-
-  .project-item {
-    max-width: 450px;
-  }
-
-  .cta {
-    grid-column: 1 / 2;
   }
 }
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

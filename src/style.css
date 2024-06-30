@@ -31,7 +31,6 @@ body {
   background-color: var(--light-color);
   justify-content: space-between;
   align-items: center;
-  /* padding: 4px 4px 8px; */
   margin-bottom: 1rem;
   height: 50px;
   box-shadow: 0 2px 2px -2px #807e7e95;
@@ -41,10 +40,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 }
 .logo h1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .first-name {
   color: var(--accent-color);
@@ -58,15 +57,18 @@ body {
   z-index: 700;
   display: none;
 }
-.nav {
+.nav-main {
   position: absolute;
   top: 0;
   right: 0;
   display: flex;
   z-index: 999;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid red;
+  align-items: end;
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 100%;
+  padding: 0 1.5rem;
 }
 .btn-mobile {
   all: unset;
@@ -85,6 +87,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   padding: 0.75rem;
+  align-items: center;
+  width: 100%;
   gap: 1rem;
 }
 a.link-item:hover {
@@ -354,14 +358,23 @@ a.top-link i:hover {
 /*  Desktop Screen size  */
 
 @media (min-width: 768px) {
-  .nav button {
+  .nav-main button {
     display: none;
   }
   .menu {
     flex-direction: row;
+    padding: 0;
+    margin: 0.5rem 0.5rem 0;
+    align-items: center;
+    justify-content: flex-end;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .logo h1 {
+    font-size: 1.6rem;
+  }
+}
 /* @media (min-width: 768px) {
   .wrapper {
     max-width: 1200px;

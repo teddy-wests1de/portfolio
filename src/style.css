@@ -5,7 +5,7 @@
   /* Light Colors */
   --dark-color: #f8f5f5;
   --light-color: #0c140c;
-  --accent-color: #40ac2f;
+  --accent-color: #198754;
 }
 
 body {
@@ -21,6 +21,7 @@ body {
 
 .wrapper {
   width: 100%;
+  max-width: 1024px;
 }
 .header {
   position: fixed;
@@ -90,6 +91,7 @@ body {
   align-items: center;
   width: 100%;
   gap: 1rem;
+  display: none;
 }
 a.link-item:hover {
   color: var(--accent-color);
@@ -187,16 +189,19 @@ a.top-link i:hover {
 }
 .main {
   display: grid;
+  margin-top: 4rem;
 }
 .section {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   padding: 1rem;
   margin: 1rem;
 }
-
+.section > * {
+  flex: 1;
+}
 .main-title {
   display: flex;
   justify-content: center;
@@ -362,6 +367,7 @@ a.top-link i:hover {
     display: none;
   }
   .menu {
+    display: flex;
     flex-direction: row;
     padding: 0;
     margin: 0.5rem 0.5rem 0;

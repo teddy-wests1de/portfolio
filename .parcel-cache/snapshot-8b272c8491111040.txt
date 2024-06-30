@@ -1,4 +1,5 @@
 5882
+64/home/elrico/Desktop/external-projects/portfolio/dist/index.html1719780044056886103 0
 58/home/elrico/Desktop/external-projects/portfolio/README.md1719695932123647406 0
 87/home/elrico/Desktop/external-projects/portfolio/node_modules/css-select/lib/compile.js1719698168574239671 0
 104/home/elrico/Desktop/external-projects/portfolio/node_modules/css-select/lib/pseudo-selectors/aliases.js1719698168506231452 0
@@ -1141,7 +1142,7 @@
 125/home/elrico/Desktop/external-projects/portfolio/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/lexer/trace.js1719698168974288021 0
 93/home/elrico/Desktop/external-projects/portfolio/node_modules/css-select/lib/esm/types.js.map1719698168766262878 0
 70/home/elrico/Desktop/external-projects/portfolio/node_modules/svgo/bin1719698168438223232 1
-59/home/elrico/Desktop/external-projects/portfolio/index.html1719756990070465938 0
+59/home/elrico/Desktop/external-projects/portfolio/index.html1719781205145797219 0
 128/home/elrico/Desktop/external-projects/portfolio/node_modules/csso/node_modules/css-tree/cjs/syntax/node/PseudoClassSelector.cjs1719698168886277384 0
 84/home/elrico/Desktop/external-projects/portfolio/node_modules/commander/package.json1719698168502230967 0
 108/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/features/view-transitions.js1719698169238319814 0
@@ -2244,7 +2245,6 @@
 94/home/elrico/Desktop/external-projects/portfolio/node_modules/@swc/helpers/esm/_ts_decorate.js1719698168942284153 0
 125/home/elrico/Desktop/external-projects/portfolio/node_modules/csso/node_modules/css-tree/lib/syntax/node/AttributeSelector.js1719698168966287053 0
 93/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/regions/DJ.js1719698169066299110 0
-64/home/elrico/Desktop/external-projects/portfolio/dist/index.html1719754380098188303 0
 102/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/features/nav-timing.js1719698169210316444 0
 101/home/elrico/Desktop/external-projects/portfolio/node_modules/svgo/plugins/cleanupEnableBackground.js1719698168814268681 0
 107/home/elrico/Desktop/external-projects/portfolio/node_modules/csso/node_modules/css-tree/cjs/data-patch.cjs1719698168718257076 0
@@ -2624,7 +2624,7 @@
 97/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/regions/alt-sa.js1719698168674251759 0
 78/home/elrico/Desktop/external-projects/portfolio/node_modules/semver/range.bnf1719698168422221298 0
 112/home/elrico/Desktop/external-projects/portfolio/node_modules/@parcel/core/test/fixtures/invalid-source-not-file1719698169086301518 1
-62/home/elrico/Desktop/external-projects/portfolio/src/style.css1719757241648287361 0
+62/home/elrico/Desktop/external-projects/portfolio/src/style.css1719781115947192986 0
 93/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/regions/NL.js1719698169210316444 0
 93/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/regions/NG.js1719698169210316444 0
 97/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/regions/alt-ww.js1719698168674251759 0

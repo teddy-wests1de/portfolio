@@ -16,7 +16,8 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1440px;
+  position: relative;
 }
 
 .header {
@@ -24,10 +25,11 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  max-width: 1440px;
   height: 50px;
-  margin-bottom: 1rem;
+  margin: auto auto 1rem;
   display: flex;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   box-shadow: 0 2px 2px -2px #807e7e95;
@@ -186,8 +188,9 @@ a.top-link i:hover {
 }
 
 .section {
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 1rem;
   padding: 1rem;
   display: flex;
@@ -229,11 +232,6 @@ a.top-link i:hover {
   padding-top: 2rem;
   font-size: 2rem;
   font-weight: 900;
-}
-
-.introduction {
-  margin: 1rem 0;
-  padding-right: 1rem;
 }
 
 .btn-cta {
@@ -393,6 +391,10 @@ a.top-link i:hover {
     margin: .5rem .5rem 0;
     padding: 0;
     display: flex;
+  }
+
+  .section {
+    flex-direction: row;
   }
 }
 

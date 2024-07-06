@@ -1142,7 +1142,7 @@
 125/home/elrico/Desktop/external-projects/portfolio/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/lexer/trace.js1719698168974288021 0
 93/home/elrico/Desktop/external-projects/portfolio/node_modules/css-select/lib/esm/types.js.map1719698168766262878 0
 70/home/elrico/Desktop/external-projects/portfolio/node_modules/svgo/bin1719698168438223232 1
-59/home/elrico/Desktop/external-projects/portfolio/index.html1719783651445695407 0
+59/home/elrico/Desktop/external-projects/portfolio/index.html1720255581564314040 0
 128/home/elrico/Desktop/external-projects/portfolio/node_modules/csso/node_modules/css-tree/cjs/syntax/node/PseudoClassSelector.cjs1719698168886277384 0
 84/home/elrico/Desktop/external-projects/portfolio/node_modules/commander/package.json1719698168502230967 0
 108/home/elrico/Desktop/external-projects/portfolio/node_modules/caniuse-lite/data/features/view-transitions.js1719698169238319814 0

@@ -234,15 +234,8 @@ a.top-link i:hover {
   font-weight: 900;
 }
 
-.btn-cta {
-  background-color: var(--accent-color);
-  color: var(--dark-color);
-  border: none;
-  padding: 1rem;
-}
-
-.btn-cta:hover {
-  cursor: pointer;
+.profile-tagline {
+  margin: auto;
 }
 
 .section-projects {
@@ -379,7 +372,7 @@ a.top-link i:hover {
   font-weight: 100;
 }
 
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .nav-main button {
     display: none;
   }
@@ -396,11 +389,22 @@ a.top-link i:hover {
   .section {
     flex-direction: row;
   }
-}
 
-@media screen and (width >= 1024px) {
-  .logo h1 {
-    font-size: 1.6rem;
+  .title {
+    font-size: calc(1.375rem + 3.5vw);
+    font-weight: 700;
+  }
+
+  .intro {
+    margin: 0;
+  }
+
+  .section.profile {
+    flex-direction: column;
+  }
+
+  .section-row {
+    display: flex;
   }
 }
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

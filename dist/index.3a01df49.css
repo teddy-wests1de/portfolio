@@ -1,0 +1,57 @@
+body {
+  background-color: var(--bs-body-color);
+  color: var(--bs-white);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.wrapper {
+  flex-direction: column;
+  padding: 0;
+  display: flex;
+}
+
+.container-lg {
+  border: 1px solid red;
+}
+
+.header {
+  padding: 0;
+}
+
+.section {
+  margin: 2.5rem 0;
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem auto;
+  font-weight: 600;
+}
+
+.highlight-orange {
+  color: var(--bs-orange);
+}
+
+.intro-name {
+  font-weight: 700;
+  transition: color 2s;
+}
+
+.intro-name span:nth-of-type(2) {
+  color: var(--bs-orange);
+}
+
+.intro-hello, .intro-title {
+  color: var(--bs-success);
+  letter-spacing: 4px;
+}
+
+p {
+  padding: 1rem 0;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */

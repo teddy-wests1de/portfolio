@@ -49,6 +49,18 @@ h2 {
 p {
   padding: 1rem 0;
 }
-/* #projects p {
-  text-align: center;
-} */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3);
+  gap: 1rem;
+
+  @media (width > 600px) {
+    grid-template-columns: auto auto;
+  }
+}
+.card {
+  min-width: 300px;
+  @media (width > 768px) {
+    max-width: 480px;
+  }
+}

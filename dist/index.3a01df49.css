@@ -54,4 +54,26 @@ h2 {
 p {
   padding: 1rem 0;
 }
+
+.projects-grid {
+  grid-template-columns: repeat(3);
+  gap: 1rem;
+  display: grid;
+
+  @media (width > 600px) {
+    & {
+      grid-template-columns: auto auto;
+    }
+  }
+}
+
+.card {
+  min-width: 300px;
+
+  @media (width > 768px) {
+    & {
+      max-width: 480px;
+    }
+  }
+}
 /*# sourceMappingURL=index.3a01df49.css.map */
